@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accordion {
+width: 800px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.carousel-item {
+    width: 800px;
+}
+
+#s1 {
+    margin-top: 5vh;
+}
+
+@media (width <= 1000px){
+    #s1 {
+        margin-top: 0;
+    }
+
+    .carousel-item {
+        width: 100vw;
+    }
+}
