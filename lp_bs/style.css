@@ -11,7 +11,7 @@ body {
     flex-direction: column;
 }
 
-.accordion {
+.carousel, .accordion {
 width: 800px;
 }
 
@@ -19,16 +19,18 @@ width: 800px;
     width: 100%;
 }
 
-.carousel-item {
-    width: 800px;
-}
-
 #s1 {
     margin-top: 5vh;
 }
 
+#s3 {
+    padding: 6vh;
+}
+
 @media (width <= 1000px){
-    #s1 {
+    #s1 
+    #s2
+    #s3 {
         margin-top: 0;
     }
 
